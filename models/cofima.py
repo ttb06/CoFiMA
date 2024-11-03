@@ -21,11 +21,11 @@ epochs = 20
 lrate = 0.01 
 milestones = [60,100,140]
 lrate_decay = 0.1
-batch_size = 128
+batch_size = 64
 split_ratio = 0.1
 T = 2
 weight_decay = 5e-4
-num_workers = 8
+num_workers = 2
 ca_epochs = 5
 
 fishermax = 0.0001

@@ -25,7 +25,7 @@ batch_size = 64
 split_ratio = 0.1
 T = 2
 weight_decay = 5e-4
-num_workers = 2
+num_workers = 4
 ca_epochs = 5
 
 fishermax = 0.0001

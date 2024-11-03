@@ -14,7 +14,7 @@ from utils.inc_net import SimpleVitNet
 
 from models.base import BaseLearner
 
-num_workers = 2
+num_workers = 4
 batch_size = 64
 
 class SimpleCIL(BaseLearner):
